@@ -1,9 +1,9 @@
-import { Navbar, Loader, Welcome, Services, Transactions, Footer } from "./components";
+import { Navbar, Loader, Welcome, Services, Transactions, Footer } from './components'
 
 export default function App() {
   return (
-    <div className="min-h-screen">
-      <div className="gradient-bg-welcome">
+    <div className='min-h-screen'>
+      <div className='gradient-bg-welcome'>
         <Navbar />
         <Welcome />
       </div>
@@ -11,5 +11,5 @@ export default function App() {
       <Transactions />
       <Footer />
     </div>
-  );
+  )
 }
